@@ -38,7 +38,7 @@ pipeline
                   steps
                   {
                        
-                        appcenter build queue --branch master --debug-logs --app developer-lighthouse-learning.com/SampleAndroidApp --token ${APPCENTER_API_TOKEN}
+                        appcenter build queue --branch master --debug-logs --app paridhi.keshri-nagarro.com/SampleAndroidApp --token ${APPCENTER_API_TOKEN}
                  
                   }
             }
