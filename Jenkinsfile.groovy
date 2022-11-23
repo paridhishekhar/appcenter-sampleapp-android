@@ -37,9 +37,9 @@ pipeline
                   }
                   steps
                   {
-                       
-                        appcenter build queue --branch master --debug-logs --app paridhi.keshri-nagarro.com/SampleAndroidApp --token ${APPCENTER_API_TOKEN}
-                 
+                        sh '''
+                        appcenter build queue --branch master --debug-logs --app paridhi.keshri-nagarro.com/SampleAndroidApp --token "${APPCENTER_API_TOKEN}"
+                        '''
                   }
             }
       }
