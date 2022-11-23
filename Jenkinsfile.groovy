@@ -1,4 +1,4 @@
-def BRANCH_NAME = ''
+
 
 pipeline
 {
